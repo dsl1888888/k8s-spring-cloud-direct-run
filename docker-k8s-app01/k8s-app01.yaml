@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: app001
-        image: codingsoldier/app001:latest
+        image: localhost:32000/codingsoldier/app001:latest
         imagePullPolicy: IfNotPresent
         ports:
         - name: http

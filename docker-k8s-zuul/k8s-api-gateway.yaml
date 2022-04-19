@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: api-gateway
-        image: codingsoldier/api-gateway:latest
+        image: localhost:32000/codingsoldier/api-gateway:latest
         imagePullPolicy: IfNotPresent        
         ports:
         - name: http

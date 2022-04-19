@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: eureka-server
-        image: codingsoldier/eureka-server:latest
+        image: localhost:32000/codingsoldier/eureka-server:latest
         imagePullPolicy: IfNotPresent
         ports:
         - name: http

@@ -27,8 +27,10 @@ metadata:
 spec:
   selector:
     app: app001
+  type: NodePort
   ports:
   - name: http
     port: 10011
     targetPort: 10011
+    nodePort: 30011
 

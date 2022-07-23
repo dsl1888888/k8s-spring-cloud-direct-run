@@ -27,8 +27,8 @@ https://github.com/dsl1888888/k8s-spring-cloud-parent
 # 测试地址
 
 
-curl http://47.243.188.180:30005/app02/test02/get
-curl http://47.243.188.180:30005/app01/test01/get
+curl http://207.244.247.155:30005/app02/test02/get
+curl http://207.244.247.155:30005/app01/test01/get
 
 
 curl http://localhost:30005/app02/test02/get

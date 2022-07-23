@@ -29,8 +29,7 @@ docker-compose --version
 echo "安装microk8s........................................"
 
 
-
-sudo snap install microk8s --classic
+sudo snap install microk8s --classic --channel=1.20/stable
 sudo ufw allow in on cni0 && sudo ufw allow out on cni0
 sudo ufw default allow routed
 

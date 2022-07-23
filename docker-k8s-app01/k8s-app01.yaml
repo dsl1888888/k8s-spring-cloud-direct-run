@@ -15,7 +15,7 @@ spec:
       containers:
       - name: app001
         image: localhost:32000/codingsoldier/app001:latest
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         ports:
         - name: http
           containerPort: 10011
